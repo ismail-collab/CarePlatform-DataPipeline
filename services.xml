@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="services_by_date.xsl"?>
+<CarePlatform>
+    <Services>
+        <Service>
+            <ServiceName>Home Care</ServiceName>
+            <Provider>
+                <Name>Caregivers Inc.</Name>
+            </Provider>
+            <Schedule>
+                <StartDate>2024-08-10</StartDate>
+                <StartTime>08:00:00</StartTime>
+                <EndTime>12:00:00</EndTime>
+            </Schedule>
+        </Service>
+        <Service>
+            <ServiceName>Medical Transport</ServiceName>
+            <Provider>
+                <Name>HealthTrans Co.</Name>
+            </Provider>
+            <Schedule>
+                <StartDate>2024-08-10</StartDate>
+                <StartTime>09:00:00</StartTime>
+                <EndTime>11:00:00</EndTime>
+            </Schedule>
+        </Service>
+        <Service>
+            <ServiceName>Physical Therapy</ServiceName>
+            <Provider>
+                <Name>Wellness Center</Name>
+            </Provider>
+            <Schedule>
+                <StartDate>2024-08-12</StartDate>
+                <StartTime>10:00:00</StartTime>
+                <EndTime>11:00:00</EndTime>
+            </Schedule>
+        </Service>
+    </Services>
+</CarePlatform>
