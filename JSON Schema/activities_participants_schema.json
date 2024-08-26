@@ -1,0 +1,50 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "Activities": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "ActivityID": {
+              "type": "string",
+              "pattern": "^[0-9]{8}$"
+            },
+            "ActivityName": {
+              "type": "string"
+            },
+            "Description": {
+              "type": "string"
+            },
+            "Participants": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "ID": {
+                    "type": "string",
+                    "pattern": "^[0-9]{8}$"
+                  },
+                  "FirstName": {
+                    "type": "string"
+                  },
+                  "LastName": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string",
+                    "format": "email"
+                  }
+                },
+                "required": ["ID", "FirstName", "LastName"]
+              }
+            }
+          },
+          "required": ["ActivityID", "ActivityName", "Description", "Participants"]
+        }
+      }
+    },
+    "required": ["Activities"]
+  }
+  

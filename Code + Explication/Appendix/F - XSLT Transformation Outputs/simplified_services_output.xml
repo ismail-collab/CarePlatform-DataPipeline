@@ -1,0 +1,12 @@
+<SimplifiedServices>
+    <Service>
+        <ServiceID>00000001</ServiceID>
+        <ServiceName>Home Care</ServiceName>
+        <ProviderName>Caregivers Inc.</ProviderName>
+    </Service>
+    <Service>
+        <ServiceID>00000002</ServiceID>
+        <ServiceName>Medical Transport</ServiceName>
+        <ProviderName>HealthTrans Co.</ProviderName>
+    </Service>
+</SimplifiedServices>

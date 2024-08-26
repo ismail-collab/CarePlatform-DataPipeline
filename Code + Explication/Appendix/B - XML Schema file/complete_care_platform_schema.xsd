@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CarePlatform xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-              xsi:noNamespaceSchemaLocation="care_platform_schema.xsd">
+              xsi:noNamespaceSchemaLocation="your-schema-file.xsd">
+
     <!-- List of Persons -->
     <Persons>
         <Person>
@@ -33,22 +34,6 @@
                 <Country>Landville</Country>
             </Address>
         </Person>
-        <!-- Additional Persons -->
-        <Person>
-            <ID>00000003</ID>
-            <FirstName>Alice</FirstName>
-            <LastName>Johnson</LastName>
-            <DOB>1938-11-16</DOB>
-            <Email>alice.johnson@example.com</Email>
-            <Phone>+1029384756</Phone>
-            <Address>
-                <Street>789 Cedar Ln</Street>
-                <City>Laketown</City>
-                <State>Lakeview</State>
-                <PostalCode>45678</PostalCode>
-                <Country>Countryland</Country>
-            </Address>
-        </Person>
     </Persons>
 
     <!-- List of Services -->
@@ -56,7 +41,7 @@
         <Service>
             <ServiceID>00000001</ServiceID>
             <ServiceName>Home Care</ServiceName>
-            <Description>Personal assistance and home care services for daily needs.</Description>
+            <Description>Personal assistance and home care services.</Description>
             <Provider>
                 <ProviderID>00000001</ProviderID>
                 <Name>Caregivers Inc.</Name>
@@ -82,7 +67,7 @@
         <Service>
             <ServiceID>00000002</ServiceID>
             <ServiceName>Medical Transport</ServiceName>
-            <Description>Transportation services for medical appointments and hospital visits.</Description>
+            <Description>Transportation services for medical appointments.</Description>
             <Provider>
                 <ProviderID>00000002</ProviderID>
                 <Name>HealthTrans Co.</Name>
@@ -103,33 +88,6 @@
                 <EndDate>2024-12-31</EndDate>
                 <StartTime>07:00:00</StartTime>
                 <EndTime>20:00:00</EndTime>
-            </Schedule>
-        </Service>
-        <!-- Additional Services -->
-        <Service>
-            <ServiceID>00000003</ServiceID>
-            <ServiceName>Meal Delivery</ServiceName>
-            <Description>Nutritionally balanced meal delivery for elderly and disabled.</Description>
-            <Provider>
-                <ProviderID>00000003</ProviderID>
-                <Name>FoodCare Services</Name>
-                <Contact>
-                    <Phone>+1597532846</Phone>
-                    <Email>info@foodcare.com</Email>
-                    <Address>
-                        <Street>456 Broad Way</Street>
-                        <City>Grandville</City>
-                        <State>Stateville</State>
-                        <PostalCode>56789</PostalCode>
-                        <Country>Countryland</Country>
-                    </Address>
-                </Contact>
-            </Provider>
-            <Schedule>
-                <StartDate>2024-08-01</StartDate>
-                <EndDate>2024-12-31</EndDate>
-                <StartTime>10:00:00</StartTime>
-                <EndTime>14:00:00</EndTime>
             </Schedule>
         </Service>
     </Services>
@@ -157,18 +115,18 @@
                     </Address>
                 </Person>
                 <Person>
-                    <ID>00000003</ID>
-                    <FirstName>Alice</FirstName>
-                    <LastName>Johnson</LastName>
-                    <DOB>1938-11-16</DOB>
-                    <Email>alice.johnson@example.com</Email>
-                    <Phone>+1029384756</Phone>
+                    <ID>00000002</ID>
+                    <FirstName>Jane</FirstName>
+                    <LastName>Smith</LastName>
+                    <DOB>1950-09-22</DOB>
+                    <Email>jane.smith@example.com</Email>
+                    <Phone>+0987654321</Phone>
                     <Address>
-                        <Street>789 Cedar Ln</Street>
-                        <City>Laketown</City>
-                        <State>Lakeview</State>
-                        <PostalCode>45678</PostalCode>
-                        <Country>Countryland</Country>
+                        <Street>456 Oak Ave</Street>
+                        <City>Sometown</City>
+                        <State>Regionburg</State>
+                        <PostalCode>67890</PostalCode>
+                        <Country>Landville</Country>
                     </Address>
                 </Person>
             </Participants>
@@ -177,7 +135,8 @@
                 <EndDate>2024-12-31</EndDate>
                 <StartTime>10:00:00</StartTime>
                 <EndTime>14:00:00</EndTime>
-            Schedule>
+            </Schedule>
         </Activity>
     </Activities>
+
 </CarePlatform>

@@ -1,0 +1,23 @@
+{
+    "Activities": [
+        {
+            "ActivityID": "00000001",
+            "ActivityName": "Weekly Social Gathering",
+            "Description": "A weekly social event for elderly people to interact and engage in various activities.",
+            "Participants": [
+                {
+                    "ID": "00000001",
+                    "FirstName": "John",
+                    "LastName": "Doe",
+                    "Email": "john.doe@example.com"
+                },
+                {
+                    "ID": "00000002",
+                    "FirstName": "Jane",
+                    "LastName": "Smith",
+                    "Email": "jane.smith@example.com"
+                }
+            ]
+        }
+    ]
+}
