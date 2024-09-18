@@ -1,7 +1,7 @@
 # CarePlatform-DataPipeline
 
 ## Overview
-This repository contains all necessary files and documentation for the CarePlatform-DataPipeline, a comprehensive data management system designed for social and medical care services for the elderly and disabled. This system integrates various services and activities, ensuring efficient information management and accessibility.
+This repository contains all necessary files and documentation for the CarePlatform-DataPipeline, a comprehensive data management system designed for social and medical care services.
 
 ## Repository Structure
 - **Complete XML Schema**: XML Schemas defining the data models.
